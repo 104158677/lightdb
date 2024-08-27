@@ -1,0 +1,1 @@
+SELECT DISTINCT S.A, S.B FROM Sailors S, Boats B, Reserves R WHERE S.A = R.G and B.E >= R.G and S.A != B.E and B.D >= R.H and S.B = 200 and 3 =B.E
